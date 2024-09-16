@@ -1,0 +1,1 @@
+worker: node debot.js
