@@ -3,8 +3,7 @@ const qrcode = require('qrcode-terminal');
 const axios = require('axios');
 require('dotenv').config();
 
-// Muat variabel lingkungan dari file .env
-const gemini_api_key = process.env.GEMINI_API_KEY;
+const gemini_api_key = process.env.GEMINI_API_KEY; //Ganti dengan Api Key Gemini 
 
 // Buat client WhatsApp dengan menggunakan autentikasi lokal
 const client = new Client({
@@ -53,7 +52,7 @@ client.on('message', async (msg) => {
     // Periksa apakah pesan berasal dari grup
     if (msg.from.includes('@g.us')) {
         // Periksa apakah pesan di grup berisi tag bot
-        if (msg.body.includes('@6283893934424')) {
+        if (msg.body.includes('@6283893934424')) { //ganti dengan nomor BOT Anda
             // Tampilkan status mengetik
             client.sendMessage(msg.from, '_Sedang mengetik..._');
 
