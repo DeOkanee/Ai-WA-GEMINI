@@ -33,4 +33,4 @@ Pastikan Anda sudah memenuhi persyaratan berikut sebelum memulai:
 
 ### Selesai
 
-Nanti Tinggal Scan Barcode Yang terlihat di WhastApp Untuk Dijadikan BOT
+Nanti Tinggal Scan Barcode Yang terlihat, Menggunakan WhastApp Yang Dijadikan BOT
