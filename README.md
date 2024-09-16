@@ -12,6 +12,9 @@ Pastikan Anda sudah memenuhi persyaratan berikut sebelum memulai:
 - [Node.js](https://nodejs.org/) (versi 16.x atau lebih baru)
 - [npm](https://www.npmjs.com/) (biasanya sudah termasuk saat menginstal Node.js)
 - [Api Key Gemini](https://aistudio.google.com/app/apikey) (Link Untuk Api Key Ai Google Gemini)
+- Menganti Nomor WhatsApp Disini
+    ```bash
+     Disini if (msg.body.includes('@628xxxxxx')) 
 
 ### Instalasi
 
