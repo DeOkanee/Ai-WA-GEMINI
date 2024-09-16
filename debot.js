@@ -50,14 +50,30 @@ async function getGeminiResponse(prompt) {
 client.on('message', async (msg) => {
     console.log(`Pesan diterima: ${msg.body}`);
 
-    // Tampilkan status mengetik
-    client.sendMessage(msg.from, '_Sedang mengetik..._');
+    // Periksa apakah pesan berasal dari grup
+    if (msg.from.includes('@g.us')) {
+        // Periksa apakah pesan di grup berisi tag bot
+        if (msg.body.includes('@6283893934424')) {
+            // Tampilkan status mengetik
+            client.sendMessage(msg.from, '_Sedang mengetik..._');
 
-    // Dapatkan respons dari Gemini API
-    const response = await getGeminiResponse(msg.body);
+            // Dapatkan respons dari Gemini API
+            const response = await getGeminiResponse(msg.body);
 
-    // Kirim balasan menggunakan fitur reply
-    msg.reply(response);
+            // Kirim balasan menggunakan fitur reply
+            msg.reply(response);
+        }
+    } else {
+        // Jika pesan bukan dari grup (pesan pribadi)
+        // Tampilkan status mengetik
+        client.sendMessage(msg.from, '_Sedang mengetik..._');
+
+        // Dapatkan respons dari Gemini API
+        const response = await getGeminiResponse(msg.body);
+
+        // Kirim balasan
+        msg.reply(response);
+    }
 });
 
 // Jalankan bot
