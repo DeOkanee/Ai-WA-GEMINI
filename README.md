@@ -11,7 +11,7 @@ Ikuti langkah-langkah di bawah ini untuk mempersiapkan proyek dan menjalankannya
 Pastikan Anda sudah memenuhi persyaratan berikut sebelum memulai:
 - [Node.js](https://nodejs.org/) (versi 16.x atau lebih baru)
 - [npm](https://www.npmjs.com/) (biasanya sudah termasuk saat menginstal Node.js)
-- [Api Key Gemini](https://aistudio.google.com/app/apikey) (Link Api Key Ai Google Gemini)
+- [Api Key Gemini](https://aistudio.google.com/app/apikey) (Link Untuk Api Key Ai Google Gemini)
 
 ### Instalasi
 
@@ -31,3 +31,6 @@ Pastikan Anda sudah memenuhi persyaratan berikut sebelum memulai:
     ```bash
     npm start
 
+### Selesai
+
+Nanti Tinggal Scan Barcode Yang terlihat di WhastApp Untuk Dijadikan BOT
