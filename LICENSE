@@ -1,5 +1,40 @@
-Proyek ini dilisensikan di bawah lisensi MIT. Dengan lisensi ini, Anda dapat menggunakan, menyalin, mengubah, menggabungkan, menerbitkan, mendistribusikan, dan mensublisensikan salinan perangkat lunak ini.
+MIT License
 
-Namun, perangkat lunak ini disediakan "SEBAGAIMANA ADANYA", tanpa jaminan dalam bentuk apapun.
+Copyright (c) 2024 [DeOkanee]
 
-Untuk informasi lebih lanjut tentang lisensi ini, silakan lihat file [LICENSE](LICENSE) yang disertakan dengan proyek ini.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## KETENTUAN TAMBAHAN
+
+1. **Pembatasan Penggunaan Komersial**: Penggunaan perangkat lunak ini untuk tujuan komersial hanya diperbolehkan dengan izin tertulis dari [Nama Pemilik] / [Nama Perusahaan].
+2. **Modifikasi dan Distribusi**: Setiap modifikasi terhadap perangkat lunak ini harus dicantumkan dengan jelas di dalam dokumentasi, dan tidak boleh menyesatkan pengguna lain tentang asal perangkat lunak ini.
+3. **Hak Kekayaan Intelektual (IPR)**: Hak kekayaan intelektual tetap menjadi milik dari [Nama Pemilik] / [Nama Perusahaan]. Penggunaan atau pengklaiman hak paten yang terkait dengan bagian dari perangkat lunak ini harus memenuhi hukum yang berlaku.
+4. **Keamanan dan Privasi**: Setiap entitas yang menggunakan perangkat lunak ini harus memastikan bahwa penggunaan perangkat lunak ini tidak menimbulkan risiko keamanan atau pelanggaran privasi pengguna akhir.
+
+---
+
+### Tambahan Penolakan (Disclaimer)
+
+Perangkat lunak ini dapat memiliki komponen pihak ketiga yang diatur oleh lisensi terpisah. Pengguna diharapkan untuk mematuhi semua lisensi yang relevan dalam penggunaan perangkat lunak ini. Semua tanggung jawab atas penggunaan pihak ketiga adalah milik pengguna.
+
+---
+
+Diperbarui: [Tanggal 16/9/2024]
