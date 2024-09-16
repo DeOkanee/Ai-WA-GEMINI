@@ -14,7 +14,7 @@ Pastikan Anda sudah memenuhi persyaratan berikut sebelum memulai:
 - [Api Key Gemini](https://aistudio.google.com/app/apikey) (Link Untuk Api Key Ai Google Gemini)
 - Menganti Nomor WhatsApp Disini
     ```bash
-     Disini if (msg.body.includes('@628xxxxxx')) 
+     if (msg.body.includes('@628xxxxxx')) 
 
 ### Instalasi
 
